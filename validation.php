@@ -1,5 +1,4 @@
 <?php
-
 echo 'Enter the email address: ';
 $email = trim(fgets(STDIN));
 
