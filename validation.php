@@ -1,7 +1,5 @@
 <?php
-echo 'Enter the email address: ';
-$email = trim(fgets(STDIN));
-
+$email=trim(readline('Enter the email address: '));
 $apiKey = 'secret';
 
 $apiUrl = 'https://api.emailvalidation.io/v1/info?apikey=' . $apiKey . '&email=' . $email;
