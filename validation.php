@@ -3,7 +3,7 @@
 echo 'Enter the email address: ';
 $email = trim(fgets(STDIN));
 
-$apiKey = 'ema_live_iAgM2kLoBpWHTtVBC2lq8cdXhVIhzQbMSxg4c016';
+$apiKey = 'secret';
 
 $apiUrl = 'https://api.emailvalidation.io/v1/info?apikey=' . $apiKey . '&email=' . $email;
 
